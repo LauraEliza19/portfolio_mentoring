@@ -19,6 +19,21 @@ h2 {
   padding: 1.25rem;
 }
 
+  .nav-link {
+    background-color: #343a40; /* Cor escura para o fundo */
+    color: #adb5bd; /* Cor cinza clara para texto inativo */
+    margin: 5%;
+  }
+  .nav-link.active {
+    background-color: #495057; /* Fundo ligeiramente mais claro para ativo */
+    color: #ffffff; /* Cor branca para o texto ativo */
+  }
+  .nav-link:not(.active):hover {
+    color: #ced4da; /* Cor mais clara ao passar o mouse nos inativos */
+  }
+
+
+
 footer {
   background-color: #343a40;
   color: white;
