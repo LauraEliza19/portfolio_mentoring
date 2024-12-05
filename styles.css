@@ -1,0 +1,57 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: #007bff;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+  border-radius: 0.5rem;
+}
