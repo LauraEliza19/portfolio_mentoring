@@ -1,5 +1,16 @@
 body {
   font-family: 'Poppins', sans-serif;
+  background-image: url('img/back.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+.background-image{
+  opacity: 0.0;
+}
+.content{
+  background-color: rgba(236, 229, 229, 0.612);
 }
 
 h2 {
@@ -20,42 +31,23 @@ h2 {
 }
 
   .nav-link {
-    background-color: #343a40; /* Cor escura para o fundo */
-    color: #adb5bd; /* Cor cinza clara para texto inativo */
+    background-color: #343a40;
+    color: #adb5bd;
     margin: 5%;
   }
   .nav-link.active {
-    background-color: #495057; /* Fundo ligeiramente mais claro para ativo */
-    color: #ffffff; /* Cor branca para o texto ativo */
+    background-color: #495057;
+    color: #ffffff;
   }
   .nav-link:not(.active):hover {
-    color: #ced4da; /* Cor mais clara ao passar o mouse nos inativos */
+    color: #ced4da;
   }
 
-
-
-footer {
-  background-color: #343a40;
-  color: white;
-  padding: 1rem;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
 
 .navbar {
   background-color: #f8f9fa;
 }
 
-.navbar .navbar-nav .nav-link {
-  font-size: 1rem;
-  font-weight: 600;
-  padding: 1rem;
-}
-
-.navbar .navbar-nav .nav-link.active {
-  color: #007bff;
-}
 
 section {
   padding: 4rem 0;
@@ -66,7 +58,3 @@ section {
   object-fit: cover;
 }
 
-.card {
-  border: none;
-  border-radius: 0.5rem;
-}
